@@ -1,9 +1,10 @@
 <template>
-  <div class="about">
-  <TheNav />
-    <h1>This is an about page</h1>
-  </div>
+    <section class="staff">
+    <TheNav />
+        <h1>STAFF PAGE</h1>
+    </section>
 </template>
+
 <script>
 // @ is an alias to /src
 import TheNav from '@/components/TheNav.vue'

@@ -1,4 +1,5 @@
-# animefm-vue
+# AnimeFM
+## Your Waifu Favorite Webradio
 
 ## Project setup
 ```

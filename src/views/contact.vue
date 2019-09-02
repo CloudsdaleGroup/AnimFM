@@ -1,8 +1,8 @@
 <template>
-  <div class="about">
-  <TheNav />
-    <h1>This is an about page</h1>
-  </div>
+    <section class="contact">
+    <TheNav />
+        <h1>CONTACT PAGE</h1>
+    </section>
 </template>
 <script>
 // @ is an alias to /src

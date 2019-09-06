@@ -41,7 +41,7 @@ export default {
       window.open(
         '/popup/radio',
         'ThePlayer',
-        'TheNav=no, scrollbars=no, width=720, height=154'
+        'TheNav=no, scrollbars=no, width=722, height=170'
       )
     }
   }

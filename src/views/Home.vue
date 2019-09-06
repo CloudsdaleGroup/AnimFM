@@ -2,6 +2,11 @@
   <div class="home">
     <TheNav />
     <ThePlayer />
+    <section class="youtube">
+      <h2 class="title">YouTube Live Stream</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/56A17bZyNWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Cloudsdale Radio</iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hEHpgI6jBJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>AnimeFM</iframe>
+    </section>
   </div>
 </template>
 

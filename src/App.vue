@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-view/>
+  <TheFooter />
   </div>
 </template>
 
@@ -21,10 +22,12 @@ body {
 <script>
 // @ is an alias to /src
 import TheNav from '@/components/TheNav.vue'
+import TheFooter from '@/components/TheFooter.vue'
 
 export default {
   components: {
-    TheNav
+    TheNav,
+    TheFooter
   }
 }
 </script>

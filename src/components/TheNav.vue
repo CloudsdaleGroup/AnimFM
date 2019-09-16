@@ -8,14 +8,20 @@
         <router-link to="/request">Song Request</router-link> |
         <router-link to="/staff">Staff</router-link>
     </div>
+    <center>
     <img class="siteLogo" src="https://cdn.siriushd.net/logo%20animeFM.png" width="50%" alt="Site Logo">
+    </center>
     </section>
 </template>
 <style scoped>
 #nav {
+    position: absolute;
+    left: 0;
+    right: 0;
     padding: 10px;
+    margin-bottom: 2.4rem;
     background-color: black;
-    box-shadow: 0px 0px 15px 10px rgb(0, 0, 0);
+    /*box-shadow: 0px 0px 15px 10px rgb(0, 0, 0);*/
 }
 
 #nav a {
@@ -28,6 +34,7 @@
 }
 .siteLogo {
     padding: 20px;
+    margin-top: 30px;
 }
 </style>
 <script>

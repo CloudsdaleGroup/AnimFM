@@ -1,17 +1,22 @@
 <template>
+<div class="container">
+  <div class="row">
     <section class="nav">
         <div id="nav">
         <router-link to="/">Home</router-link> |
         <router-link to="#"><a @click="openPopup">Popup</a></router-link> |
+        <router-link to="#"><a @click="openPopupCR">Popup CR</a></router-link> |
         <router-link to="/about">About</router-link> |
         <router-link to="/contact">Contact</router-link> |
         <router-link to="/request">Song Request</router-link> |
         <router-link to="/staff">Staff</router-link>
     </div>
     <center>
-    <img class="siteLogo" src="https://cdn.siriushd.net/logo%20animeFM.png" width="50%" alt="Site Logo">
+    <img class="siteLogo" src="https://cdn.asthriona.com/logo%20animeFM.png" width="50%" alt="Site Logo">
     </center>
     </section>
+    </div>  
+</div>
 </template>
 <style scoped>
 #nav {
@@ -48,7 +53,14 @@ export default {
       window.open(
         '/popup/radio',
         'ThePlayer',
-        'TheNav=no, scrollbars=no, width=722, height=170'
+        'TheNav=no, scrollbars=no, width=722, height=259'
+      )
+    },
+    openPopupCR () {
+      window.open(
+        '/popup/CloudsdaleRadio',
+        'ThePlayer',
+        'TheNav=no, scrollbars=no, width=722, height=259'
       )
     }
   }

@@ -4,11 +4,8 @@
     </section>
 </template>
 <style scoped>
-    body {
-        background-color: black !important;
-    }
     .crstream {
-        background-image: url(https://cdn.asthriona.com/BeFunky-photo.jpg);
+        background-image: url(https://cdn.cloudsdalegroup.com/site/cr/CRbackground.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         overflow: hidden;
@@ -16,11 +13,11 @@
 </style>
 <script>
 // @ is an alias to /src
-import ThePlayer from '@/components/ThePlayer.vue'
+import ThePlayer from '@/components/ThePlayerCR.vue'
 
 export default {
   name: 'popup',
-  title: "AnimeFM - Popup",
+  title: "CloudsdaleRadio - Popup",
     components: {
         ThePlayer
     },

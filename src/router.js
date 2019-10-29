@@ -14,6 +14,11 @@ export default new Router({
       component: Home
     },
     {
+      path: '*',
+      name: '404',
+      component: () => import(/* webpackChunkName: "about" */ './views/404.vue')
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
@@ -38,8 +43,18 @@ export default new Router({
     },
     {
       path: '/popup/radio',
-      name: 'Popup',
+      name: 'AnimeFM - Popup',
       component: () => import(/* webpackChunkName: "about" */ './views/popup.vue')
+    },
+    {
+      path: '/popup/CloudsdaleRadio',
+      name: 'Cloudsdale Radio - Popup',
+      component: () => import(/* webpackChunkName: "about" */ './views/popupCR.vue')
+    },
+    {
+      path: '/prototype',
+      name: 'Cloudsdale Radio - Popup',
+      component: () => import(/* webpackChunkName: "about" */ './views/prototype.vue')
     }
   ]
 })

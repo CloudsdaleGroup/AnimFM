@@ -1,6 +1,6 @@
 <template>
     <section class="footer">
-        Copyright © All Right reserved. AnimeFM is a subsidiary of <a href="https://CloudsdaleGroup.com">Cloudsdale Group</a>
+        Copyright 2019 © All Right reserved. AnimeFM is a subsidiary of <a href="https://CloudsdaleGroup.com">Cloudsdale Group</a> // Version 1.0 <span><router-link style="color:red;" to="/prototype">Prototype</router-link> </span>
     </section>
 </template>
 

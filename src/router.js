@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 
 Vue.use(Router)
-
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
@@ -53,7 +52,7 @@ export default new Router({
     },
     {
       path: '/prototype',
-      name: 'Cloudsdale Radio - Popup',
+      name: 'Cloudsdale Radio - prototype',
       component: () => import(/* webpackChunkName: "about" */ './views/prototype.vue')
     }
   ]

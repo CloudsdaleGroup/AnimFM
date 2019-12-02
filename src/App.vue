@@ -20,14 +20,16 @@ body {
 }
 </style>
 <script>
+import {get,post,getJSON,getHrefParam} from "vue-xhr";
+import axios from 'axios';
 // @ is an alias to /src
 import TheNav from '@/components/TheNav.vue'
 import TheFooter from '@/components/TheFooter.vue'
 
 export default {
-  components: {
+    components: {
     TheNav,
     TheFooter
-  }
+  },
 }
 </script>

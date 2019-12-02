@@ -2,6 +2,7 @@
     <section class="contact">
     <TheNav />
         <h1>CONTACT PAGE</h1>
+        <i>Soon&#8482;</i>
     </section>
 </template>
 <script>

@@ -11,15 +11,17 @@
       </p>
       <p class="text-left">
         <strong>Why using vue?</strong>
-        <br />Did I said it was made on a rush? because I dont really know vue , but I had to use it for few things and I liked it, so i deciode to make it in vue
+        <br/>Did I said it was made on a rush? because I dont really know vue, but I had to use it for few things and I liked it, so I decide to make it in vue
         see if I can maintain it and make smth better without spending all my time on it and keep it or drop it, For now i'll keep it! It's fun ^w^
       </p>
       <h1 class="text-left">Change Logs</h1>
-      <p class="text-left"></p>
+      <p class="text-left">
       <ul>
         <strong>version 1.0</strong>
         <li>Add Website!</li>
+        <li>Add: External player</li>
       </ul>
+      </p>
     </div>
   </section>
 </template>

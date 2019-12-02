@@ -2,7 +2,7 @@
     <div class="playerCR">
         <h1>Cloudsdale Radio</h1>
         <hr>
-        <iframe src="http://code02.cloudsdaleradio.com/public/cloudsdale_radio/embed" frameborder="0" allowtransparency="true" style="width: 50%; min-height: 150px; border: 0;"></iframe>
+        <iframe src="https://player.cloudsdalegroup.com/cloudsdaleradio" frameborder="0" scrolling="no" allowtransparency="true" style="width: 80%; min-height: 217px; border: 0;overflow-y: hidden;"></iframe>
     </div>
 </template>
 

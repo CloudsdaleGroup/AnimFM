@@ -53,14 +53,14 @@ export default {
       window.open(
         '/popup/radio',
         'ThePlayer',
-        'TheNav=no, scrollbars=no, width=722, height=259'
+        'TheNav=no, scrollbars=no, width=559, height=330'
       )
     },
     openPopupCR () {
       window.open(
         '/popup/CloudsdaleRadio',
         'ThePlayer',
-        'TheNav=no, scrollbars=no, width=722, height=259'
+        'TheNav=no, scrollbars=no, width=559, height=330'
       )
     }
   }

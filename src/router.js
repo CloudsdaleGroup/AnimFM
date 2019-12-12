@@ -54,6 +54,12 @@ export default new Router({
       path: '/prototype',
       name: 'Cloudsdale Radio - prototype',
       component: () => import(/* webpackChunkName: "about" */ './views/prototype.vue')
-    }
+    },
+    {
+      path: '/exPlayer',
+      name: 'AnimeFM - prototype',
+      component: () => import(/* webpackChunkName: "about" */ './views/AnotherPlayer.vue')
+    },
+
   ]
 })

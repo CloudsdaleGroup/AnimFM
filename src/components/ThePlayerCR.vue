@@ -16,16 +16,12 @@ export default {
         Axios.get('https://broadcaster.animefm.co/api/nowplaying/1')
         .then((response)=>{
             this.meta = response.data.now_playing
-            console.log(response)
-            console.log(this.meta.song.art)
         })
         var refreshMeta = this;
         setInterval(() => {
         Axios.get('https://broadcaster.animefm.co/api/nowplaying/1')
         .then((response)=>{
             this.meta = response.data.now_playing
-            console.log(response)
-            console.log(this.meta.song.art)
         })
         }, 10000); 
     },

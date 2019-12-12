@@ -12,15 +12,21 @@ import Axios from 'axios'
 
 export default {
     mounted: function(){
+        Axios.get('https://broadcaster.animefm.co/api/nowplaying/3')
+        .then((response)=>{
+            this.meta = response.data.now_playing
+            console.log(response)
+            console.log(this.meta.song.art)
+        })
         var refreshMeta = this;
         setInterval(() => {
         Axios.get('https://broadcaster.animefm.co/api/nowplaying/3')
         .then((response)=>{
-            this.meta = response.data.now_playing, 1000
+            this.meta = response.data.now_playing
             console.log(response)
             console.log(this.meta.song.art)
         })
-        }, 1000); 
+        }, 10000); 
     },
     data: function(){
         return {

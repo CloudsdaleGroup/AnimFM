@@ -1,0 +1,27 @@
+                            
+/* TEAM */                        
+Name: Asthriona
+Site: https://Asthriona.com
+email: Asthriona@animefm.co
+Twitter: @Asthriona
+Location: Ashford, Kent, United Kingdom
+
+Name: Azmerhos
+Site: AnimeFM.co
+email: Asthriona@animefm.co
+Twitter: @Azmerhos
+Location: France
+				
+/* THANKS */
+
+CloudsdaleGroup (https://CloudsdaleGroup.com)
+Sirius Media Group (https://SiriusMediaGroup.com)
+GreenP (https://GreenP.fr)
+NuxArch (https://NuxArch.com)
+                     
+/* SITE */
+
+Last update: 2019/12/14 
+Standards: HTML5, CSS3, JS, 
+Components: jQuery, ExpressJS, Vue, VueEX, Axios, Apache, Debian, Serve, SoundManager2
+Software: VScode, Git, NPM

@@ -1,22 +1,33 @@
 <template>
   <div class="home">
-    <div class="container">
-      <div class="row">
+    <b-container fuild>
+      <b-row>
     <TheNav />
-    <ThePlayerCR />
+    <b-col col md="6" sm="12">
     <ThePlayer />
+    </b-col>
+    <b-col col md="6" sm="12" class="d-none d-md-block">
+    <ThePlayerCR />
+    </b-col>
     <section class="youtube">
       <h2 class="title">YouTube Live Stream</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/56A17bZyNWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Cloudsdale Radio</iframe>
-      <iframe class="plyerLeft" width="560" height="315" src="https://www.youtube.com/embed/hEHpgI6jBJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>AnimeFM</iframe>
+       <!-- <b-col col md="12">
+        <b-embed class="yt" type="iframe" aspect="16by9" src="https://www.youtube.com/embed/56A17bZyNWk" allowfullscreen></b-embed>
+        </b-col>
+        <b-col col md="12">
+          <b-embed class="yt" type="iframe" aspect="16by9" src="https://www.youtube.com/embed/hEHpgI6jBJk" allowfullscreen></b-embed>
+        </b-col>-->
+        <!--Temp yt player-->
+      <iframe class="none"      width="560" height="315" src="https://www.youtube.com/embed/hEHpgI6jBJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>AnimeFM</iframe>
+      <iframe class="plyerLeft" width="560" height="315" src="https://www.youtube.com/embed/56A17bZyNWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Cloudsdale Radio</iframe>
     </section>
-    </div>
-    </div>
+    </b-row>
+    </b-container>
   </div>
 </template>
 
 <style scoped>
-    .playerCR {
+    /*.playerCR {
         margin-top: 3.3rem;
         padding-top: 2rem;
         padding-bottom: 2rem;    
@@ -28,13 +39,18 @@
         background-size: cover;
         width: 49%; 
         min-height: 100px;
-    }
+    }*/
     .plyerLeft {
         position: relative;
         left: 10px !important;
     }
-</style>
-<style>
+    .title {
+      text-align: center;
+    }
+    .yt{
+      height: 100%;
+      width: 650px;
+    }
 ::-webkit-scrollbar {
 display: none;
 }
@@ -57,7 +73,6 @@ export default {
     openPopup () {
       window.open(
         '/popup/radio',
-        'ThePlayer',
         'TheNav=no, scrollbars=no, width=562, height=363'
       )
     },

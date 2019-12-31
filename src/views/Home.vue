@@ -4,12 +4,14 @@
       <b-row>
     <TheNav />
     <b-col col md="6" sm="12">
+      <p></p>
     <ThePlayer />
     </b-col>
-    <b-col col md="6" sm="12" class="d-none d-md-block">
+    <b-col col md="6" sm="12">
+      <p></p>
     <ThePlayerCR />
     </b-col>
-    <section class="youtube">
+    <section class="youtube d-none d-md-block">
       <h2 class="title">YouTube Live Stream</h2>
        <!-- <b-col col md="12">
         <b-embed class="yt" type="iframe" aspect="16by9" src="https://www.youtube.com/embed/56A17bZyNWk" allowfullscreen></b-embed>

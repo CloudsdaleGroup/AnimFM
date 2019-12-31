@@ -1,4 +1,4 @@
-<template>
+<template >
     <div class="player">
         <div id="background" :style="{backgroundImage: 'url(\'' + meta.song.art + '\')'}">
         <h1>AnimeFM</h1>
@@ -37,7 +37,6 @@ export default {
         background-color: rgba(255, 255, 255, 0.8);
         box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.6);
         border-radius: 5px;
-        height: 110px;
     }
     h1 {
         color: aliceblue;
@@ -46,7 +45,7 @@ export default {
         margin-right: 15%;
         border-radius: 10px;
     }
-        .player {
+        /*.player {
         z-index: 1;
         margin-top: 3.3rem;
         padding-right: 10px;
@@ -57,15 +56,17 @@ export default {
         left: 10px;
         width: 49%; 
         min-height: 100px;
-        }
-        #background {
+        }}*/
+        .background {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 110%;
-        padding-top: 2%;
+        position: relative;
+        height: 100%;
+        bottom: 0;
+        }
         /*filter: blur(3px);
-        z-index: -1;*/
-    }
+        z-index: -1;}*/
+    
 
 </style>

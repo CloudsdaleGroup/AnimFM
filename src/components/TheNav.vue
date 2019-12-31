@@ -14,6 +14,10 @@
     <center>
     <img class="siteLogo" src="https://cdn.asthriona.com/logo%20animeFM.png" width="50%" alt="Site Logo">
     </center>
+    <!--App not ready yet
+      <div class="mobile d-block .d-md-none">
+      <h2>You are using our website version, Feel free to download our android app!</h2>
+    </div>-->
     </section>
     </div>  
 </div>

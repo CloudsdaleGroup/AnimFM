@@ -47,7 +47,7 @@ export default {
         margin-right: 15%;
         border-radius: 10px;
     }
-        .player {
+       /* .player {
         z-index: 1;
         margin-top: 3.3rem;
         padding-right: 10px;
@@ -66,6 +66,6 @@ export default {
         height: 110%;
         padding-top: 2%;
         /*filter: blur(3px);
-        z-index: -1;*/
-    }
+        z-index: -1;
+    }*/
     </style>

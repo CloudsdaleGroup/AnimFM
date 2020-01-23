@@ -6,7 +6,7 @@
         <strong>Welcome on AnimeFM developement part!</strong>
         <br />If you dont like code related stuff, this part is going to be boering for you!
         <br />Here We gonna discuss of this website developement, And i'm gonna be honest with you, I made it in a rush!, the project was on my desk but
-        we had a lot of issue near the launch, our music database was not ready, we had to process all the song, some server god DDoS by Cloudsdale Radio concurence
+        we had a lot of issue near the launch, our music database was not ready, we had to process all the song, some server got DDoS by Cloudsdale Radio's concurence.<br>
         anyway, that was not a fun part.
       </p>
       <p class="text-left">

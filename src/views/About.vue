@@ -8,22 +8,23 @@
             Originaly started by <a href="https://twitter.com/Sirius242" target="_blank" rel="noopener noreferrer">Quentin "Sirius" Silva</a> and <a href="https://twitter.com/azmerhos" target="_blank" rel="noopener noreferrer">Killian "Azmerhos" Patriowski</a>, Quentin partially left Cloudsdale Radio in 2019 to focus on other project after 7 years of work.<br>
             The station is now managed by <a href="https://twitter.com/Asthriona" target="_blank" rel="noopener noreferrer">Asthriona</a>, The Production Manager of Sirius Media Group, and Lead Developper of Cloudsdale Group.
             Originaly, Cloudsdale Radio was created as a challenge for Sirius, in 2012, the challenge was to create a fully functional webradio from scratch, and learn more about developement and server management.
-            The station start with a single server, a little VPS and few song, and got a peack with 6 dedicated server to run all the 3 station with broadcaster, relay, and the website.
+            The station start with a single server, a little VPS and few song, and got a peak with 6 dedicated server to run all the 3 station with broadcaster, relay, and the website, and more than 10 000 songs.
             After 6 years, They decide to close the station to create a new one, to follow the team moods.
             In 2018, They created CloudsdaleGroup, to regroup all the Cloudsdale Radio station and other webradio, like Sirius Radio And EquestriaFM.
             In 2018 EquestriaFM is shutting down to the benefit of Cloudsdale Radio, his Manager left <a href="http://cloudsdalegroup.com" target="_blank" rel="noopener noreferrer">CloudsdaleGroup</a> few month later to focus on his own project.
         </p>
         <p class="us">
           We are broadcasting 24/7 and are availiable everywhere in the world for free, all you need is a internet connection.<br>
-          Our station broadcast Japanses Anime Music, Anime related music (remix, fan made, cover, etc...) and Japanse music.<br>
-          We schedule Live show, every now and then, you can follow us on Twitter to be aware when live show and maintenance are planned!
+          Our station broadcast JPOP,Anime &amp; Anime related music (remix, fan made, cover, etc...).<br>
+          We schedule Live show, every now and then, you can follow us on <a href="http://twitter.com/_animefm" target="_blank" rel="noopener noreferrer">Twitter</a> to be aware when live show and maintenance are planned!
         </p>
   </div>
+  <hr>
   <div class="faq">
-    <h1 class="faqtitle">Q&A</h1>
+    <h1 class="faqtitle">Q&amp;A</h1>
     <p class="qua">
       <b>What is AnimeFM?</b><br>
-      AnimeFM is a free Webradio that broadcasting Anime & Japan related music 24/24 and 7/7<br>
+      AnimeFM is a free Webradio that broadcasting Anime &amp; Japan related music 24/24 and 7/7<br>
       The station is developed by Cloudsdale Group.<br>
       <br><b>Why a changelogs and why there is "Cloudsdale Radio" Change logs here?</b><br>
       We like to see we are going foward with the station, AnimeFM is the direct successor of Cloudsdale Radio, it's like a Cloudsdale Radio 8.<br>
@@ -33,9 +34,13 @@
       <br><b>Can I join the team as host?</b><br>
       Yes! if you had an idea for a show that fit in the station theme, please feel free to send us a e-mail at <a href="mailto:contact@animefm.Co">Contact@AnimeFM.co</a> ! we will take care of your request as soon as possible.<br>
       We are only asking for an exemple of the you you would like to produce on our station, and our producer will take care of the little edit you will had to do to fit perfectly with the station.<br>
-      We usualy don't ask much changement and just validate your topics.
+      We usualy don't ask much changement and just validate your topics.<br>
+      <br><b>I want my song/Album/Artwork removed from this website.</b><br>
+      If we add one of your artwork/Album/song by mistake, please contact us at <a href="MAILTO:legal@animefm.co">legal@AnimeFM.co</a> with the name of you album/song or with the name and location of your artwork.<br>
+      We will remove in the next 24 hours and send you an e-mail to comfirm we removed your art.
     </p>
   </div>
+  <hr>
   <div class="privacy">
     <h1 class="title">Privacy</h1>
     <p>
@@ -46,6 +51,7 @@
     </p>
     <p class="separator"></p>
   </div>
+  <hr>
     <div class="relay">
     <h1 class="title">Our Relay</h1>
     <p>

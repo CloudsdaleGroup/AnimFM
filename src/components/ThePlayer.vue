@@ -12,13 +12,13 @@ import Axios from 'axios'
 
 export default {
     mounted: function(){
-        Axios.get('https://broadcaster.animefm.co/api/nowplaying/3')
+        Axios.get('https://maki.animefm.co/api/nowplaying/1')
         .then((response)=>{
             this.meta = response.data.now_playing
         })
         var refreshMeta = this;
         setInterval(() => {
-        Axios.get('https://broadcaster.animefm.co/api/nowplaying/3')
+        Axios.get('https://maki.animefm.co/api/nowplaying/1')
         .then((response)=>{
             this.meta = response.data.now_playing
         })

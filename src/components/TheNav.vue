@@ -5,7 +5,6 @@
         <div id="nav">
         <router-link to="/">Home</router-link> |
         <router-link to="#"><a @click="openPopup">Popup</a></router-link> |
-        <router-link to="#"><a @click="openPopupCR">Popup CR</a></router-link> |
         <router-link to="/about">About</router-link> |
         <router-link to="/contact">Contact</router-link> |
         <router-link to="/request">Song Request</router-link> |
@@ -56,13 +55,6 @@ export default {
     openPopup () {
       window.open(
         '/popup/radio',
-        'ThePlayer',
-        'TheNav=no, scrollbars=no, width=559, height=330'
-      )
-    },
-    openPopupCR () {
-      window.open(
-        '/popup/CloudsdaleRadio',
         'ThePlayer',
         'TheNav=no, scrollbars=no, width=559, height=330'
       )

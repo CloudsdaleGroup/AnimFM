@@ -3,25 +3,13 @@
     <b-container fuild>
       <b-row>
     <TheNav />
-    <b-col col md="6" sm="12">
+    <b-col col md="12" sm="12">
       <p></p>
     <ThePlayer />
     </b-col>
-    <b-col col md="6" sm="12">
-      <p></p>
-    <ThePlayerCR />
-    </b-col>
     <section class="youtube d-none d-md-block">
       <h2 class="title">YouTube Live Stream</h2>
-       <!-- <b-col col md="12">
-        <b-embed class="yt" type="iframe" aspect="16by9" src="https://www.youtube.com/embed/56A17bZyNWk" allowfullscreen></b-embed>
-        </b-col>
-        <b-col col md="12">
-          <b-embed class="yt" type="iframe" aspect="16by9" src="https://www.youtube.com/embed/hEHpgI6jBJk" allowfullscreen></b-embed>
-        </b-col>-->
-        <!--Temp yt player-->
-      <iframe class="none"      width="560" height="315" src="https://www.youtube.com/embed/hEHpgI6jBJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>AnimeFM</iframe>
-      <iframe class="plyerLeft" width="560" height="315" src="https://www.youtube.com/embed/56A17bZyNWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Cloudsdale Radio</iframe>
+      <iframe class="none" width="560" height="315" src="https://www.youtube.com/embed/hEHpgI6jBJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>AnimeFM</iframe>
     </section>
     </b-row>
     </b-container>
@@ -45,6 +33,11 @@
     .plyerLeft {
         position: relative;
         left: 10px !important;
+    }
+    .youtube{
+      position: relative;
+      margin: auto;
+      margin-top: 1.5rem;
     }
     .title {
       text-align: center;

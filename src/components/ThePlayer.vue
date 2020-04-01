@@ -1,9 +1,8 @@
 <template >
     <div class="player">
         <div id="background" :style="{backgroundImage: 'url(\'' + meta.song.art + '\')'}">
-        <h1>AnimeFM</h1>
         <hr>
-        <iframe src="https://player.cloudsdalegroup.com/animefm" frameborder="0" scrolling="no" allowtransparency="true" style="width: 80%; min-height: 217px; border: 0;overflow-y: hidden;"></iframe>
+        <iframe src="https://player.cloudsdalegroup.com/animefm" frameborder="0" scrolling="no" allowtransparency="true" style="width: 40%; min-height: 217px; border: 0;overflow-y: hidden;"></iframe>
         </div>
     </div>
 </template>

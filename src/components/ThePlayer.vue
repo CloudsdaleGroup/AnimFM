@@ -1,6 +1,6 @@
 <template >
     <div class="player">
-        <div id="background" :style="{backgroundImage: 'url(\'' + meta.song.art + '\')'}">
+        <div id="background" :style="{backgroundImage: 'url(\'' + meta.art + '\')', backgroundSize: cover, backgroundPosition: center, backgroundRepeat: no-repeat}">
         <hr>
         <iframe src="https://player.cloudsdalegroup.com/animefm" frameborder="0" scrolling="no" allowtransparency="true" style="width: 40%; min-height: 217px; border: 0;overflow-y: hidden;"></iframe>
         </div>
@@ -11,15 +11,15 @@ import Axios from 'axios'
 
 export default {
     mounted: function(){
-        Axios.get('https://maki.animefm.co/api/nowplaying/1')
+        Axios.get('https://api.asthriona.com/animefm/now')
         .then((response)=>{
-            this.meta = response.data.now_playing
+            this.meta = response.data
         })
         var refreshMeta = this;
         setInterval(() => {
-        Axios.get('https://maki.animefm.co/api/nowplaying/1')
+        Axios.get('https://api.asthriona.com/animefm/now')
         .then((response)=>{
-            this.meta = response.data.now_playing
+            this.meta = response.data
         })
         }, 10000); 
     },
@@ -44,28 +44,4 @@ export default {
         margin-right: 15%;
         border-radius: 10px;
     }
-        /*.player {
-        z-index: 1;
-        margin-top: 3.3rem;
-        padding-right: 10px;
-        padding-top: 2rem;
-        padding-bottom: 2rem;    
-        z-index: 2;
-        position: relative;
-        left: 10px;
-        width: 49%; 
-        min-height: 100px;
-        }}*/
-        .background {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        height: 100%;
-        bottom: 0;
-        }
-        /*filter: blur(3px);
-        z-index: -1;}*/
-    
-
 </style>

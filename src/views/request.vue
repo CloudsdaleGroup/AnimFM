@@ -4,7 +4,7 @@
         <ThePlayer />
         <div class="request">
             <p>Request a song you want from our database! (1 per 15 minutes/IP)</p>
-            <iframe src="https://broadcaster.animefm.co/public/animefm/embed-requests" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 850px; border: 0;"></iframe>
+            <iframe src="https://maki.animefm.co/public/animefm/embed-requests" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 850px; border: 0;"></iframe>
         </div>
     </section>
 </template>

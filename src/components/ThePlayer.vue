@@ -21,6 +21,11 @@ export default {
         .then((response)=>{
             this.meta = response.data
         })
+        .catch(function(errir){
+            if(error.response){
+                console.log(error.response.data)
+            }
+        })
         }, 10000); 
     },
     data: function(){
